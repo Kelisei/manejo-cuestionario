@@ -1,0 +1,70 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: radial-gradient(
+    circle farthest-corner at 3.2% 49.6%,
+    rgba(80, 12, 139, 0.87) 0%,
+    rgba(161, 10, 144, 0.72) 83.6%
+  );
+}
+.carta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra verticalmente los elementos */
+  align-items: center; /* Centra horizontalmente los elementos */
+  max-width: 60rem;
+  min-width: 30rem;
+  background: #000c;
+  border-radius: 1rem;
+  color: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 2rem; /* Añade un relleno interno */
+  margin: auto; /* Centra la caja horizontalmente */
+}
+.boton {
+  background-color: transparent;
+  text-align: center;
+  border-radius: 0.375rem; /* rounded-md */
+  padding: 0.375rem; /* p-1.5 */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); /* shadow-sm */
+  border: 1px solid rgba(139, 92, 246, 1); /* ring-1 ring-inset ring-violet-800 */
+  color: white; /* placeholder:text-gray-400 */
+  font-size: 0.875rem; /* sm:text-sm */
+  line-height: 1.5rem; /* sm:leading-6 */
+}
+
+.boton:focus {
+  border: 2px solid rgba(34, 197, 94, 1); /* focus:ring-2 focus:ring-inset focus:ring-green-500 */
+  outline: none;
+}
+.boton:hover {
+  background-color: #6d28d9; /* bg-violet-700 (ligero cambio de color al pasar el cursor) */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada en hover */
+}
+body,
+html {
+  height: 100%; /* Asegura que el contenedor padre ocupe toda la altura */
+  display: flex;
+  justify-content: center; /* Centra la caja horizontalmente en la página */
+  align-items: center; /* Centra la caja verticalmente en la página */
+  margin: 0; /* Elimina los márgenes predeterminados del body */
+}
+.contenedor-respuestas {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.cajita-check {
+  padding: 2rem;
+}
+
+/* styles.css */
+.contador {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  z-index: 1000;
+}

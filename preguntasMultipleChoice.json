@@ -1,0 +1,47 @@
+[
+  {
+    "textoPregunta": "¿Cuáles de los siguientes elementos comprenden la seguridad ACTIVA de un vehículo?",
+    "respuestas": [
+      "Neumáticos",
+      "Sistema de suspensión",
+      "Airbag",
+      "Sistema de dirección",
+      "Chasis"
+    ],
+    "respuestasCorrectas": [
+      "Neumáticos",
+      "Sistema de suspensión",
+      "Sistema de dirección"
+    ]
+  },
+  {
+    "textoPregunta": "¿Cada cuánto se debe realizar una revisión completa del sistema de frenos?",
+    "respuestas": [
+      "Cada seis meses o 10000 Km",
+      "Una vez al año o 20000 Km",
+      "Cada 2 años o 30000 Km"
+    ],
+    "respuestasCorrectas": ["Una vez al año o 20000 Km"]
+  },
+  {
+    "textoPregunta": "¿Para qué debe ser usado el carril izquierdo en una autopista?",
+    "respuestas": [
+      "Para ir a una baja velocidad y que transiten los vehiculos de carga",
+      "Para realizar la maniobra de adelantamiento e ir a la máxima velocidad permitida",
+      "Debe estar libre para que circulen los vehículos de emergencia"
+    ],
+    "respuestasCorrectas": [
+      "Para realizar la maniobra de adelantamiento e ir a la máxima velocidad permitida"
+    ]
+  },
+  {
+    "textoPregunta": "¿En dónde está prohibida la maniobra de adelantamiento?",
+    "respuestas": [
+      "En avenidas y calles",
+      "En autopistas",
+      "En semiautopista",
+      "En puentes, intersecciones y curvas"
+    ],
+    "respuestasCorrectas": ["En puentes, intersecciones y curvas"]
+  }
+]
