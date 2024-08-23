@@ -1,11 +1,13 @@
 var respuestasCorrectas = 0;
+var respuestasTotales = 0; // Añadir una variable para el total de respuestas
 var preguntas = [];
 var preguntaActualIndex = 0;
 
 function actualizarRespuestasCorrectas() {
   respuestasCorrectas += 1;
-  document.getElementsByClassName("contador")[0].innerText =
-    respuestasCorrectas;
+  // Actualizar el contador de respuestas
+  const contador = document.getElementsByClassName("contador")[0];
+  contador.innerText = `Respuestas correctas: ${respuestasCorrectas} / ${respuestasTotales}`;
 }
 
 class PreguntaQuiz {
@@ -116,6 +118,8 @@ async function cargarPreguntas() {
           pregunta.respuestasCorrectas
         )
     );
+    // Configurar el total de respuestas
+    respuestasTotales = preguntas.length;
     return preguntas;
   } catch (error) {
     console.error("Error al cargar las preguntas:", error);
@@ -131,7 +135,7 @@ function mostrarPregunta(preguntaIndex) {
   } else {
     // Si no hay más preguntas, mostrar un mensaje final
     const mensajeFinal = document.createElement("p");
-    mensajeFinal.textContent = `Has terminado el quiz. Respuestas correctas: ${respuestasCorrectas}`;
+    mensajeFinal.textContent = `Has terminado el quiz. Respuestas correctas: ${respuestasCorrectas} / ${respuestasTotales}`;
     contenedorQuiz.appendChild(mensajeFinal);
   }
 }
@@ -142,12 +146,12 @@ function mostrarSiguientePregunta() {
 }
 
 async function iniciarQuiz() {
+  const preguntasCargadas = await cargarPreguntas();
   let contador = document.createElement("p");
   contador.classList.add("contador");
-  contador.innerText = respuestasCorrectas;
+  contador.innerText = `Respuestas correctas: ${respuestasCorrectas} / ${respuestasTotales}`;
   document.body.appendChild(contador);
 
-  const preguntasCargadas = await cargarPreguntas();
   if (preguntasCargadas.length > 0) {
     mostrarPregunta(preguntaActualIndex);
   }
