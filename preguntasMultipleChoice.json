@@ -43,5 +43,269 @@
       "En puentes, intersecciones y curvas"
     ],
     "respuestasCorrectas": ["En puentes, intersecciones y curvas"]
+  },
+  {
+    "textoPregunta": "¿Qué debe hacer el conductor para facilitar el sobrepaso de otro vehiculo?",
+    "respuestas": [
+      "Tocar bocina para avisarle que puede sobrepasarlo",
+      "Disminuir la velocidad corriendose hacia la derecha",
+      "Correrse a la derecha sin disminuir la velocidad"
+    ],
+    "respuestasCorrectas": [
+      "Disminuir la velocidad corriendose hacia la derecha"
+    ]
+  },
+  {
+    "textoPregunta": "De las siguientes afirmaciones, marque con una X solo las que son correctas:",
+    "respuestas": [
+      "Los peatones que cruzan de forma correcta, siempre tienen prioridad de paso",
+      "Una ambulancia en estado de emergencia, solo tiene prioridad de paso si viene por la derecha",
+      "Ante la presencia de camiones en calles o avenidas, siempre debo cederles el paso",
+      "Si transitamos por una calle asfaltada y nos cruzamos con una de tierra, tenemos prioridad de paso"
+    ],
+    "respuestasCorrectas": [
+      "Si transitamos por una calle asfaltada y nos cruzamos con una de tierra, tenemos prioridad de paso",
+      "Los peatones que cruzan de forma correcta, siempre tienen prioridad de paso"
+    ]
+  },
+  {
+    "textoPregunta": "En giros y rotondas tiene prioridad de paso el vehículo:",
+    "respuestas": [
+      "El que entra al giro o rotonda",
+      "El que viene por la derecha",
+      "El de mayor porte"
+    ],
+    "respuestasCorrectas": ["El que entra al giro o rotonda"]
+  },
+  {
+    "textoPregunta": "En el cruce entre una avenida y una calle ¿Quién tiene prioridad de paso?",
+    "respuestas": [
+      "El vehiculo que circula por avenida",
+      "El vehículo que circula por calle",
+      "El vehiculo que circula por la derecha",
+      "El vehículo que llega primero"
+    ],
+    "respuestasCorrectas": ["El vehiculo que circula por la derecha"]
+  },
+  {
+    "textoPregunta": "En una intersección se encuentran dos vehículos, el que circula por la derecha va a doblar y el la izquierda sigue derecho ¿Quién tiene que ceder el paso?",
+    "respuestas": [
+      "El que circula por la izquierda",
+      "El vehículo que circula por calle",
+      "El que circula por la derecha",
+      "El vehículo que llega primero"
+    ],
+    "respuestasCorrectas": ["El que circula por la derecha"]
+  },
+  {
+    "textoPregunta": "¿Qué maniobra debe realizar el conductor de un vehículo previo al ingreso o cruce de una semiautopista?",
+    "respuestas": [
+      "Antes de ingresar o cruzarla se debe detener la marcha",
+      "Se debe realizar de la forma más rápida posible, de resultar necesario aumentar la marcha",
+      "Se debe cruzar o ingresar manteniendo la marcha a la que se está circulando"
+    ],
+    "respuestasCorrectas": [
+      "Antes de ingresar o cruzarla se debe detener la marcha"
+    ]
+  },
+  {
+    "textoPregunta": "¿En qué situación se permite utilizar la bocina?",
+    "respuestas": [
+      "En caso de embotellamiento y eventualmente ante un festejo",
+      "En caso de peligro o en zona rural",
+      "En una intersección para advertir nuestra presencia"
+    ],
+    "respuestasCorrectas": ["En caso de peligro o en zona rural"]
+  },
+  {
+    "textoPregunta": "¿Está permitido conducir utilizando teléfonos celulares?",
+    "respuestas": [
+      "No está reglamentado",
+      "Depende por qué vía se circule",
+      "Si, siempre y cuando no distraiga",
+      "Esta prohibido en todos los casos"
+    ],
+    "respuestasCorrectas": ["Esta prohibido en todos los casos"]
+  },
+  {
+    "textoPregunta": "¿Cuáles de los siguientes requisitos resultan obligatorios para circular en Argentina?",
+    "respuestas": [
+      "Cedula de identificación del vehículo",
+      "Comprobante de pago del seguro",
+      "Comprobante de póliza del seguro vigente",
+      "Verificación técnica obligatoria",
+      "Titulo de propiedad del vehículo",
+      "Licencia de conducir"
+    ],
+    "respuestasCorrectas": [
+      "Cedula de identificación del vehículo",
+      "Comprobante de póliza del seguro vigente",
+      "Verificación técnica obligatoria",
+      "Licencia de conducir"
+    ]
+  },
+  {
+    "textoPregunta": "¿Cuál es la distancia reglamentaria que hay que dejar al estacionar, para maniobrar correctamente?",
+    "respuestas": [
+      "30 cm entre vehículos, y 10 cm del cordón",
+      "50 cm entre vehículos, y 20 cm del cordón",
+      "40 cm entre vehículos, y 30 cm del cordón"
+    ],
+    "respuestasCorrectas": ["50 cm entre vehículos, y 20 cm del cordón"]
+  },
+  {
+    "textoPregunta": "¿Cuál es la distancia de seguridad que debe dejarse entre vehiculos al circular en rutas?",
+    "respuestas": [
+      "80 mts (3 segundos)",
+      "100 mts (4 segundos)",
+      "30 mts (2 segundos)"
+    ],
+    "respuestasCorrectas": ["80 mts (3 segundos)"]
+  },
+  {
+    "textoPregunta": "¿Cuáles son las reglas de velocidad para autos en una autopista?",
+    "respuestas": [
+      "Velocidad máxima: 130 km/h, Velocidad mínima: 65 km/h",
+      "Velocidad máxima: 120 km/h, Velocidad mínima: 60 km/h",
+      "Velocidad máxima: 130 km/h, Velocidad mínima: 40 km/h",
+      "Velocidad máxima: 100 km/h, Velocidad mínima: 50 km/h"
+    ],
+    "respuestasCorrectas": [
+      "Velocidad máxima: 130 km/h, Velocidad mínima: 65 km/h"
+    ]
+  },
+  {
+    "textoPregunta": "¿Cuáles son las reglas de velocidad para autos en una ruta rural?",
+    "respuestas": [
+      "Velocidad máxima: 110 km/h, Velocidad mínima: 40 km/h",
+      "Velocidad máxima: 100 km/h, Velocidad mínima: 30 km/h",
+      "Velocidad máxima: 90 km/h, Velocidad mínima: 50 km/h",
+      "Velocidad máxima: 110 km/h, Velocidad mínima: 30 km/h"
+    ],
+    "respuestasCorrectas": [
+      "Velocidad máxima: 110 km/h, Velocidad mínima: 40 km/h"
+    ]
+  },
+  {
+    "textoPregunta": "¿Cuáles son las reglas de velocidad para autos en una calle?",
+    "respuestas": [
+      "Velocidad máxima: 40 km/h, Velocidad mínima: 20 km/h",
+      "Velocidad máxima: 50 km/h, Velocidad mínima: 30 km/h",
+      "Velocidad máxima: 40 km/h, Velocidad mínima: 30 km/h",
+      "Velocidad máxima: 60 km/h, Velocidad mínima: 20 km/h"
+    ],
+    "respuestasCorrectas": [
+      "Velocidad máxima: 40 km/h, Velocidad mínima: 20 km/h"
+    ]
+  },
+  {
+    "textoPregunta": "¿Cuáles son las reglas de velocidad para autos en una avenida?",
+    "respuestas": [
+      "Velocidad máxima: 60 km/h, Velocidad mínima: 30 km/h",
+      "Velocidad máxima: 70 km/h, Velocidad mínima: 40 km/h",
+      "Velocidad máxima: 50 km/h, Velocidad mínima: 30 km/h",
+      "Velocidad máxima: 60 km/h, Velocidad mínima: 20 km/h"
+    ],
+    "respuestasCorrectas": [
+      "Velocidad máxima: 60 km/h, Velocidad mínima: 30 km/h"
+    ]
+  },
+  {
+    "textoPregunta": "¿Cuáles son las reglas de velocidad para autos en una semiautopista?",
+    "respuestas": [
+      "Velocidad máxima: 120 km/h, Velocidad mínima: 40 km/h",
+      "Velocidad máxima: 100 km/h, Velocidad mínima: 30 km/h",
+      "Velocidad máxima: 120 km/h, Velocidad mínima: 60 km/h",
+      "Velocidad máxima: 110 km/h, Velocidad mínima: 40 km/h"
+    ],
+    "respuestasCorrectas": [
+      "Velocidad máxima: 120 km/h, Velocidad mínima: 40 km/h"
+    ]
+  },
+  {
+    "textoPregunta": "¿Cuáles son las reglas de velocidad para autos en una ruta urbana?",
+    "respuestas": [
+      "Velocidad máxima: 60 km/h, Velocidad mínima: 30 km/h",
+      "Velocidad máxima: 70 km/h, Velocidad mínima: 20 km/h",
+      "Velocidad máxima: 60 km/h, Velocidad mínima: 40 km/h",
+      "Velocidad máxima: 50 km/h, Velocidad mínima: 30 km/h"
+    ],
+    "respuestasCorrectas": [
+      "Velocidad máxima: 60 km/h, Velocidad mínima: 30 km/h"
+    ]
+  },
+  {
+    "textoPregunta": "¿Cuáles son las reglas de luces para autos en una autopista durante la noche bajo condiciones normales?",
+    "respuestas": [
+      "Luces de posición",
+      "Luces bajas",
+      "Luces altas",
+      "Luces de posición y luces bajas"
+    ],
+    "respuestasCorrectas": ["Luces de posición", "Luces bajas"]
+  },
+  {
+    "textoPregunta": "¿Cuáles son las reglas de luces para autos en una avenida durante el día bajo condiciones normales?",
+    "respuestas": [
+      "Luces de posición",
+      "Luces bajas",
+      "Luces altas",
+      "Luces de posición y luces bajas"
+    ],
+    "respuestasCorrectas": ["Luces de posición"]
+  },
+  {
+    "textoPregunta": "¿Cuáles son las reglas de luces para autos en una calle durante la noche bajo condiciones normales?",
+    "respuestas": [
+      "Luces de posición",
+      "Luces bajas",
+      "Luces altas",
+      "Luces de posición y luces bajas"
+    ],
+    "respuestasCorrectas": ["Luces de posición"]
+  },
+  {
+    "textoPregunta": "¿Cuáles son las reglas de luces para autos en una ruta durante el día bajo condiciones normales?",
+    "respuestas": [
+      "Luces de posición",
+      "Luces bajas",
+      "Luces altas",
+      "Luces de posición y luces bajas"
+    ],
+    "respuestasCorrectas": ["Luces de posición", "Luces bajas"]
+  },
+  {
+    "textoPregunta": "Si usted se encuentra ante una señal en forma de rombo amarilla se trata de:",
+    "respuestas": [
+      "Una señal reglamentaria",
+      "Una señal preventiva",
+      "Una señal informativa"
+    ],
+    "respuestasCorrectas": ["Una señal preventiva"]
+  },
+  {
+    "textoPregunta": "En los casos de doble línea, compuesta por un trazo continuo y otro discontinuo, ¿cuál es la conducta permitida?",
+    "respuestas": [
+      "Podemos cruzarla con precaución",
+      "Está permitido cruzar la doble línea sólo del lado del trazo continuo",
+      "Está permitido cruzar la doble linea solo del lado del trazo discontinuo"
+    ],
+    "respuestasCorrectas": [
+      "Está permitido cruzar la doble linea solo del lado del trazo discontinuo"
+    ]
+  },
+  {
+    "textoPregunta": "Cuando se estaciona ¿qué se debe tener en cuenta?",
+    "respuestas": [
+      "No estacionar cerca de la entrada principal de hospitales, escuelas",
+      "Que no ocupe ni sea delimitada por la penúltima línea de prolongación de chava",
+      "Que no sea una farmacia de turno",
+      "Que no sea una parada de colectivo"
+    ],
+    "respuestasCorrectas": [
+      "Que no sea una parada de colectivo",
+      "No estacionar cerca de la entrada principal de hospitales, escuelas",
+      "Que no ocupe ni sea delimitada por la penúltima línea de prolongación de chava"
+    ]
   }
 ]
